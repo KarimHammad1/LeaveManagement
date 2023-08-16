@@ -1,15 +1,20 @@
-# .NET 6 Leave Management System
+Leave Management System
+This project is an interactive leave application portal that includes Employee login and administration Login. Employees can apply for leave and view leave status (i.e. the amount of leave remaining for a specific leave type and see leave that they are allowed.). Administration can either accept or reject an employee leave request.
 
-.NET 6 Leave Management Application for educational purposes and is built in part for the course entitled: "Complete ASP.NET Core and Entity Framework Development"
-Learn to how:
-- Build a fully data driven web application using cutting edge technology 
-- Connect to a Database using Entity Framework Core
-- Repository and Unit Of Work Patterns and Dependency Injection
-- Understand how the MVC (Models, Views and Controllers) Pattern works
-- Understand C# and .Net Core Web Syntax
-- Understand user Authentication using ASP.NET Core Identity
-- Understand how to use Models, ViewModels and AutoMapper 
-- Use Bootstrap to style and manipulate the overall layout
-- Manage Packages with NuGet Manager
-- Implement Website Layout using AdminLTE Theme
-- Setup GitHub for Source Control
+Features
+Create your own Leave Type as admin
+Add the number of days specific to a leave
+Allocate Leave to Employees
+User Authentication
+Apply for Leave
+Leave request approval workflow.
+Employee List View
+Allocation Leave View
+Request List View
+Technology Stack
+Backend: C#
+Database: Microsoft SQL
+Frontend: JS, HTML, CSS
+Framework: Entity Framework, Bootstrap
+Code Editor: Visual Studio Code
+Support: .Net >= 6.0
